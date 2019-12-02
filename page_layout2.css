@@ -1,0 +1,82 @@
+/* method one : flex*/
+/* body {
+  display: flex;
+}
+
+.left {
+  width: 200px;
+  height: 500px;
+  background-color: red;
+}
+
+.center {
+  height: 500px;
+  flex: 1;
+  background-color: purple;
+}
+
+.right {
+  width: 200px;
+  height: 500px;
+  background-color: green;
+  
+} */
+
+
+
+
+/* method two : 浮动模型中的 float */
+ 
+.left {
+  width: 200px;
+  height: 500px;
+  background-color: red;
+  float: left;
+}
+
+.center {
+  margin: 0 210px;
+  height: 500px;
+  background-color: purple;
+} 
+
+.right {
+  width: 200px;
+  height: 500px;
+  background-color: green;
+  float: right;
+} 
+
+
+
+
+
+/* method three : 层模型中的absolute定位 */
+/* .left {
+  position: absolute;
+  left: 0px;
+
+  width: 200px;
+  height: 500px;
+
+  background-color: red;
+}
+
+.center {
+  margin: 0 210px;
+  height: 500px;
+  background-color: gray;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+
+  width: 200px;
+  height: 500px;
+
+  background-color: green;
+  
+} */
+
+
